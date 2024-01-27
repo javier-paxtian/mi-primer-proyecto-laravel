@@ -32,3 +32,5 @@ Route::apiResource('post', PostController::class);
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/register', [AuthController::class, 'register']);
 Route::post('/logout', [AuthController::class, 'logout']);
+
+// esto se va a otra rama
